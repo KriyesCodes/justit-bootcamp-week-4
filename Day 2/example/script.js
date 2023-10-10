@@ -75,3 +75,46 @@ if (num > 5 && num < 10) {
 else {
   console.log(`${num} is not between 5 and 10`);
 };
+
+// Switch statement
+
+let day = "Wednesday";
+
+switch (day) {
+  case "Monday":
+    console.log("Weekend is over, Happy Monday!");
+    break;
+  case "Tuesday":
+    console.log("Another weekday...");
+    break;
+  case "Wednesday":
+    console.log("Another weekday...");
+    break;
+  case "Thursday":
+    console.log("Another weekday...");
+    break;
+  case "Friday":
+    console.log("Another weekday...");
+    break;
+  default:
+    console.log("WEEKEND LET'S GO!");
+};
+
+
+// Switch statement 2 - Grade Example
+
+let testScore = 80;
+
+switch (true) {
+  case testScore >= 70:
+    console.log("Distinction");
+    break;
+  case testScore >= 60:
+    console.log("Merit");
+    break;
+  case testScore >= 50:
+    console.log("Pass");
+    break;
+  default:
+    console.log("Failed");
+};

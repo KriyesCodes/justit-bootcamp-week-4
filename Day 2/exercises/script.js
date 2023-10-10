@@ -21,7 +21,7 @@ if (age >= 18) {
 }
 else {
   console.log("Sorry, I can't serve you");
-}
+};
 
 // task 2
 console.log(`Task 2:
@@ -35,7 +35,7 @@ if (password.length >= 8) {
 }
 else {
   console.log("Password is too short");
-}
+};
 
 // task 3
 console.log(`Task 3:
@@ -49,7 +49,7 @@ if (num % 3 === 0 || num % 5 === 0) {
 }
 else {
   console.log("This number is neither divisible by 3 nor 5");
-}
+};
 
 // task 4
 console.log(`Task 4:

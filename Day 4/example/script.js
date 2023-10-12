@@ -27,10 +27,24 @@ function toggleUserStatus() {
   }
 }
 
-userStatus();
+toggleUserStatus();
 
 // Parameters and Arguments
 
 function add(num1, num2) {
   console.log(num1 + num2);
 }
+
+add(10, 20);
+
+// Functions that call other functions
+
+function double(num) {
+  return num * 2;
+}
+
+function quadruple(num) {
+  return double(num) * 2;
+}
+
+console.log(quadruple(10));

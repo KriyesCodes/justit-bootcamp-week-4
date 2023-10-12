@@ -48,3 +48,25 @@ function quadruple(num) {
 }
 
 console.log(quadruple(10));
+
+// function declaration
+function squaredDeclaration(num) {
+  return num * num;
+}
+
+console.log(squaredDeclaration(3));
+
+// arrow function
+const squaredArrow = (num) => {
+  return num * num;
+}
+
+console.log(squaredArrow(4));
+
+// arrow function with implicit return
+const squaredArrow2 = (num) => num * num;
+
+// "Anonymous" function
+const squaredAnon = function (num) {
+  return num * num;
+}

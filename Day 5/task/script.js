@@ -56,3 +56,43 @@ const library = {
   ]
 }
 
+// Task 1
+console.log("Task 1 \n -----");
+
+const person = {
+  name: 'Kriyes',
+  age: 20,
+  city: 'London'
+}
+
+console.log(person);
+
+// Task 2
+console.log("Task 2 \n -----");
+
+person.favorites = ["Your Name", "Kung Fu Panda", "The Dark Knight", "Interstellar"];
+
+console.log(person);
+
+// Task 3
+console.log("Task 3 \n -----");
+
+const pet = {
+  name: "Frederick",
+  animal: "fish",
+  eat: function () {
+    return `${this.name} eats only the finest ${this.animal} cuisine`;
+  },
+  drink: function () {
+    return `${this.name} drinks water rich in oxygen`;
+  }
+}
+
+console.log(pet.eat());
+console.log(pet.drink());
+
+// Challenge Task 1
+console.log("Challenge Task 1 \n -----");
+
+// Challenge Task 2
+console.log("Challenge Task 1 \n -----");

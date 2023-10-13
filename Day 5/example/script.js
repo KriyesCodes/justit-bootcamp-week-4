@@ -1,3 +1,5 @@
+// Objects
+
 // Objects Syntax
 // Key: Value - Pairs
 const person = {
@@ -58,3 +60,38 @@ else if (time < 1500) {
   console.log(offer);
 }
 
+// Methods
+coffeeShop.open = function () {
+  return "We are open come on in!";
+};
+
+console.log(coffeeShop.open());
+
+coffeeShop.close = function () {
+  return "Sorry we are closed come back tomorrow!";
+};
+
+console.log(coffeeShop.close());
+
+console.log(coffeeShop);
+
+// Alarm objects
+const alarm = {
+  weekendAlarm: "Sleep in its the weekend!",
+  weekdayAlarm: "Get up at 6am",
+  checkDay: function (day) {
+    switch (true) {
+      case (day === "Saturday"):
+        return this.weekendAlarm;
+      case (day === "Sunday"):
+        return this.weekendAlarm;
+      default:
+        return this.weekdayAlarm;
+    }
+
+  }
+}
+
+console.log(alarm.checkDay("Saturday"));
+console.log(alarm.checkDay("Sunday"));
+console.log(alarm.checkDay("Monday"));

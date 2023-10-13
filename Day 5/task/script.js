@@ -11,7 +11,7 @@ Tasks
 /*
 Nested Objects Task
 
-1: Access the name Johns supervisor.
+1: Access the name of Johns supervisor.
 
 2: Access the title of the Great Gatsby
 */
@@ -94,5 +94,9 @@ console.log(pet.drink());
 // Challenge Task 1
 console.log("Challenge Task 1 \n -----");
 
+console.log(employee.department.supervisor.name);
+
 // Challenge Task 2
-console.log("Challenge Task 1 \n -----");
+console.log("Challenge Task 2 \n -----");
+
+console.log(library.books[0].title);

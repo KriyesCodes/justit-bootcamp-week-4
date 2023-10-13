@@ -7,3 +7,52 @@ Tasks
 
 3: Create an object named "pet" key value pairs of "animal" and "name". Add methods to the object of "eat" and "drink" that return a message about the pet eating or drinking.
 */
+
+/*
+Nested Objects Task
+
+1: Access the name Johns supervisor.
+
+2: Access the title of the Great Gatsby
+*/
+
+// Nested Objects 
+const employee = {
+  id: 1,
+  name: 'John Doe',
+  position: 'Software Engineer',
+  department: {
+    name: 'Engineering',
+    location: 'Building A',
+    supervisor: {
+      name: 'Jane Smith',
+      position: 'Engineering Manager'
+    }
+  }
+}
+
+const library = {
+  name: 'Public Library',
+  location: 'City Center',
+  books: [
+    {
+      id: 'B001',
+      title: 'The Great Gatsby',
+      author: 'F. Scott Fitzgerald',
+      details: {
+        genre: 'Fiction',
+        year: 1925
+      }
+    },
+    {
+      id: 'B002',
+      title: 'To Kill a Mockingbird',
+      author: 'Harper Lee',
+      details: {
+        genre: 'Fiction',
+        year: 1960
+      }
+    }
+  ]
+}
+
